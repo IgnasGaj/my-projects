@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+}
+header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.page_wrapper {
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.row-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.img-banner {
+  width: 50%;
+  height: 20rem;
+
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-1 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+.photo-2 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+.photo-3 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+.photo-4 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+.photo-5 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+.photo-6 {
+  background-image: url(https://www.ifoto.ai/blog/wp-content/uploads/aesthetic-pictures.jpg);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
